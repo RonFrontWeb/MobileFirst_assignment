@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/img/bg\ shapes.png);
+    background-color: #0F0F0F;
+    background-repeat: no-repeat;
+    background-position-x: 180px;
+    background-position-y: -200px;
+    font-family: roboto;
+
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 16vh 1fr 16vh;
+    overflow: hidden;
+}
+
+/* HEADER SECTION START */
+
+header {
+    display: grid;
+    margin-top: 10px;
+    min-height: 30px;
+    grid-template-rows: 16vh;
+}
+
+nav {
+    padding-top: 100px;
+    width: 100%;
+    margin: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding-right: 100px;
+
+
+}
+
+/* HEADER SECTION END */
+
+/* MAIN SECTION START */
+
+main {
+    color: rgb(239, 11, 116);
+    grid-template-rows: 1fr;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    background: transparent;
+}
+
+label {
+    padding-top: 33px;
+}
+
+#login {
+    margin: 30px;
+    padding-top: 100px;
+}
+
+#submit {
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    background-color: rgb(239, 11, 116);
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    border: none;
+}
+
+/* MAIN SECTION END */
+
+/* FOOTER SECTION START */
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.iconbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconbox svg {
+    width: 40px;
+    height: 40px;
+    fill: white;
+    transition: fill 300ms;
+}
+
+form svg {
+    width: 40px;
+    height: 40px;
+    fill: white;
+    transition: fill 300ms;
+}
+
+.log {
+    font-size: 40px;
+}
+
+p {
+    font-size: 12px;
+    color: gray;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0.6;
+}
+
+.pass {
+    display: flex;
+    flex-direction: column;
+}
+
+.pass a {
+    height: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: static;
+}
+
+.pass a svg {
+    height: 20px;
+    opacity: 0.4;
+}
+
+.dimmer {
+    opacity: 0.5;
+}
+
+.newStyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+}
